@@ -1,0 +1,897 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		211A25B702E1EC907BFBFE34 /* Pods_Sicredi_SicrediUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDDE9BCC9C77AB6669C1A1C9 /* Pods_Sicredi_SicrediUITests.framework */; };
+		60E03AFB6B815A5449BB87DF /* Pods_Sicredi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E462288400D6F3614C2AE8A9 /* Pods_Sicredi.framework */; };
+		6BDC0CFAA1D416087866E85F /* Pods_SicrediTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63400EACC39B3F00985E5030 /* Pods_SicrediTests.framework */; };
+		880948A825FB9FA80017A95F /* SicrediApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880948A725FB9FA80017A95F /* SicrediApp.swift */; };
+		880948AA25FB9FA80017A95F /* EventsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880948A925FB9FA80017A95F /* EventsView.swift */; };
+		880948AC25FB9FA90017A95F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 880948AB25FB9FA90017A95F /* Assets.xcassets */; };
+		880948AF25FB9FA90017A95F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 880948AE25FB9FA90017A95F /* Preview Assets.xcassets */; };
+		880948BA25FB9FA90017A95F /* SicrediTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880948B925FB9FA90017A95F /* SicrediTests.swift */; };
+		880948C525FB9FA90017A95F /* SicrediUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880948C425FB9FA90017A95F /* SicrediUITests.swift */; };
+		880948DB25FBA8600017A95F /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 880948DA25FBA8600017A95F /* Alamofire */; };
+		880948EF25FBACD60017A95F /* Events.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880948EE25FBACD60017A95F /* Events.swift */; };
+		880948F125FBAF170017A95F /* People.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880948F025FBAF170017A95F /* People.swift */; };
+		880948F325FBB3720017A95F /* EventsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880948F225FBB3720017A95F /* EventsViewModel.swift */; };
+		880948F625FBBFA20017A95F /* SwiftDate in Frameworks */ = {isa = PBXBuildFile; productRef = 880948F525FBBFA20017A95F /* SwiftDate */; };
+		880948F825FBBFA20017A95F /* SwiftDateStatic in Frameworks */ = {isa = PBXBuildFile; productRef = 880948F725FBBFA20017A95F /* SwiftDateStatic */; };
+		880948FD25FBD7C50017A95F /* EventService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880948FC25FBD7C50017A95F /* EventService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		880948B625FB9FA90017A95F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8809489C25FB9FA80017A95F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 880948A325FB9FA80017A95F;
+			remoteInfo = Sicredi;
+		};
+		880948C125FB9FA90017A95F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8809489C25FB9FA80017A95F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 880948A325FB9FA80017A95F;
+			remoteInfo = Sicredi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		880948EA25FBA9060017A95F /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2DA26B79C2879C783DE99270 /* Pods-Sicredi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sicredi.debug.xcconfig"; path = "Target Support Files/Pods-Sicredi/Pods-Sicredi.debug.xcconfig"; sourceTree = "<group>"; };
+		32C3800AF3CCE3C95F8420C8 /* Pods-SicrediTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SicrediTests.debug.xcconfig"; path = "Target Support Files/Pods-SicrediTests/Pods-SicrediTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3742C984C58FE39849DC1980 /* Pods-SicrediTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SicrediTests.release.xcconfig"; path = "Target Support Files/Pods-SicrediTests/Pods-SicrediTests.release.xcconfig"; sourceTree = "<group>"; };
+		63400EACC39B3F00985E5030 /* Pods_SicrediTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SicrediTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CFEF5B13FCA4DECFF770D66 /* Pods-Sicredi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sicredi.release.xcconfig"; path = "Target Support Files/Pods-Sicredi/Pods-Sicredi.release.xcconfig"; sourceTree = "<group>"; };
+		880948A425FB9FA80017A95F /* Sicredi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sicredi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		880948A725FB9FA80017A95F /* SicrediApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SicrediApp.swift; sourceTree = "<group>"; };
+		880948A925FB9FA80017A95F /* EventsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsView.swift; sourceTree = "<group>"; };
+		880948AB25FB9FA90017A95F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		880948AE25FB9FA90017A95F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		880948B025FB9FA90017A95F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		880948B525FB9FA90017A95F /* SicrediTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SicrediTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		880948B925FB9FA90017A95F /* SicrediTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SicrediTests.swift; sourceTree = "<group>"; };
+		880948BB25FB9FA90017A95F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		880948C025FB9FA90017A95F /* SicrediUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SicrediUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		880948C425FB9FA90017A95F /* SicrediUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SicrediUITests.swift; sourceTree = "<group>"; };
+		880948C625FB9FA90017A95F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		880948EE25FBACD60017A95F /* Events.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Events.swift; sourceTree = "<group>"; };
+		880948F025FBAF170017A95F /* People.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = People.swift; sourceTree = "<group>"; };
+		880948F225FBB3720017A95F /* EventsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsViewModel.swift; sourceTree = "<group>"; };
+		880948FC25FBD7C50017A95F /* EventService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventService.swift; sourceTree = "<group>"; };
+		953B243838313A1293895DB2 /* Pods-Sicredi-SicrediUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sicredi-SicrediUITests.debug.xcconfig"; path = "Target Support Files/Pods-Sicredi-SicrediUITests/Pods-Sicredi-SicrediUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BDDE9BCC9C77AB6669C1A1C9 /* Pods_Sicredi_SicrediUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sicredi_SicrediUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E462288400D6F3614C2AE8A9 /* Pods_Sicredi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sicredi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E866B1919E4C132DFC411A60 /* Pods-Sicredi-SicrediUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sicredi-SicrediUITests.release.xcconfig"; path = "Target Support Files/Pods-Sicredi-SicrediUITests/Pods-Sicredi-SicrediUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		880948A125FB9FA80017A95F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60E03AFB6B815A5449BB87DF /* Pods_Sicredi.framework in Frameworks */,
+				880948DB25FBA8600017A95F /* Alamofire in Frameworks */,
+				880948F825FBBFA20017A95F /* SwiftDateStatic in Frameworks */,
+				880948F625FBBFA20017A95F /* SwiftDate in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		880948B225FB9FA90017A95F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BDC0CFAA1D416087866E85F /* Pods_SicrediTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		880948BD25FB9FA90017A95F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				211A25B702E1EC907BFBFE34 /* Pods_Sicredi_SicrediUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11721703879B66193DBF4231 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2DA26B79C2879C783DE99270 /* Pods-Sicredi.debug.xcconfig */,
+				6CFEF5B13FCA4DECFF770D66 /* Pods-Sicredi.release.xcconfig */,
+				953B243838313A1293895DB2 /* Pods-Sicredi-SicrediUITests.debug.xcconfig */,
+				E866B1919E4C132DFC411A60 /* Pods-Sicredi-SicrediUITests.release.xcconfig */,
+				32C3800AF3CCE3C95F8420C8 /* Pods-SicrediTests.debug.xcconfig */,
+				3742C984C58FE39849DC1980 /* Pods-SicrediTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		3ABF34FB9F3B845BB80A2E99 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E462288400D6F3614C2AE8A9 /* Pods_Sicredi.framework */,
+				BDDE9BCC9C77AB6669C1A1C9 /* Pods_Sicredi_SicrediUITests.framework */,
+				63400EACC39B3F00985E5030 /* Pods_SicrediTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8809489B25FB9FA80017A95F = {
+			isa = PBXGroup;
+			children = (
+				880948A625FB9FA80017A95F /* Sicredi */,
+				880948B825FB9FA90017A95F /* SicrediTests */,
+				880948C325FB9FA90017A95F /* SicrediUITests */,
+				880948A525FB9FA80017A95F /* Products */,
+				11721703879B66193DBF4231 /* Pods */,
+				3ABF34FB9F3B845BB80A2E99 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		880948A525FB9FA80017A95F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				880948A425FB9FA80017A95F /* Sicredi.app */,
+				880948B525FB9FA90017A95F /* SicrediTests.xctest */,
+				880948C025FB9FA90017A95F /* SicrediUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		880948A625FB9FA80017A95F /* Sicredi */ = {
+			isa = PBXGroup;
+			children = (
+				880948A725FB9FA80017A95F /* SicrediApp.swift */,
+				880948D825FBA4750017A95F /* Assets */,
+				880948D225FBA3FE0017A95F /* Architecture */,
+				880948D725FBA4640017A95F /* Utils */,
+				880948B025FB9FA90017A95F /* Info.plist */,
+				880948AD25FB9FA90017A95F /* Preview Content */,
+			);
+			path = Sicredi;
+			sourceTree = "<group>";
+		};
+		880948AD25FB9FA90017A95F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				880948AE25FB9FA90017A95F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		880948B825FB9FA90017A95F /* SicrediTests */ = {
+			isa = PBXGroup;
+			children = (
+				880948B925FB9FA90017A95F /* SicrediTests.swift */,
+				880948BB25FB9FA90017A95F /* Info.plist */,
+			);
+			path = SicrediTests;
+			sourceTree = "<group>";
+		};
+		880948C325FB9FA90017A95F /* SicrediUITests */ = {
+			isa = PBXGroup;
+			children = (
+				880948C425FB9FA90017A95F /* SicrediUITests.swift */,
+				880948C625FB9FA90017A95F /* Info.plist */,
+			);
+			path = SicrediUITests;
+			sourceTree = "<group>";
+		};
+		880948D225FBA3FE0017A95F /* Architecture */ = {
+			isa = PBXGroup;
+			children = (
+				880948D325FBA4290017A95F /* Services */,
+				880948D625FBA44A0017A95F /* Models */,
+				880948D525FBA4400017A95F /* ViewModels */,
+				880948D425FBA4300017A95F /* Views */,
+			);
+			path = Architecture;
+			sourceTree = "<group>";
+		};
+		880948D325FBA4290017A95F /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				880948FC25FBD7C50017A95F /* EventService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		880948D425FBA4300017A95F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				880948A925FB9FA80017A95F /* EventsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		880948D525FBA4400017A95F /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				880948F225FBB3720017A95F /* EventsViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		880948D625FBA44A0017A95F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				880948EE25FBACD60017A95F /* Events.swift */,
+				880948F025FBAF170017A95F /* People.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		880948D725FBA4640017A95F /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		880948D825FBA4750017A95F /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				880948AB25FB9FA90017A95F /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		880948A325FB9FA80017A95F /* Sicredi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 880948C925FB9FA90017A95F /* Build configuration list for PBXNativeTarget "Sicredi" */;
+			buildPhases = (
+				206724C62FC5B8B8FD3A2172 /* [CP] Check Pods Manifest.lock */,
+				880948A025FB9FA80017A95F /* Sources */,
+				880948A125FB9FA80017A95F /* Frameworks */,
+				880948A225FB9FA80017A95F /* Resources */,
+				30745C5717FEEB04D7867444 /* [CP] Embed Pods Frameworks */,
+				880948EA25FBA9060017A95F /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sicredi;
+			packageProductDependencies = (
+				880948DA25FBA8600017A95F /* Alamofire */,
+				880948F525FBBFA20017A95F /* SwiftDate */,
+				880948F725FBBFA20017A95F /* SwiftDateStatic */,
+			);
+			productName = Sicredi;
+			productReference = 880948A425FB9FA80017A95F /* Sicredi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		880948B425FB9FA90017A95F /* SicrediTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 880948CC25FB9FA90017A95F /* Build configuration list for PBXNativeTarget "SicrediTests" */;
+			buildPhases = (
+				46DCF74ECB4EAA4174DA63B4 /* [CP] Check Pods Manifest.lock */,
+				880948B125FB9FA90017A95F /* Sources */,
+				880948B225FB9FA90017A95F /* Frameworks */,
+				880948B325FB9FA90017A95F /* Resources */,
+				B0EA3E12889FB58E205FA6CF /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				880948B725FB9FA90017A95F /* PBXTargetDependency */,
+			);
+			name = SicrediTests;
+			productName = SicrediTests;
+			productReference = 880948B525FB9FA90017A95F /* SicrediTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		880948BF25FB9FA90017A95F /* SicrediUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 880948CF25FB9FA90017A95F /* Build configuration list for PBXNativeTarget "SicrediUITests" */;
+			buildPhases = (
+				A4CB894A45BBBBA785C8999A /* [CP] Check Pods Manifest.lock */,
+				880948BC25FB9FA90017A95F /* Sources */,
+				880948BD25FB9FA90017A95F /* Frameworks */,
+				880948BE25FB9FA90017A95F /* Resources */,
+				8996FA2CEFD5C31BEE256E90 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				880948C225FB9FA90017A95F /* PBXTargetDependency */,
+			);
+			name = SicrediUITests;
+			productName = SicrediUITests;
+			productReference = 880948C025FB9FA90017A95F /* SicrediUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8809489C25FB9FA80017A95F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					880948A325FB9FA80017A95F = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					880948B425FB9FA90017A95F = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 880948A325FB9FA80017A95F;
+					};
+					880948BF25FB9FA90017A95F = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 880948A325FB9FA80017A95F;
+					};
+				};
+			};
+			buildConfigurationList = 8809489F25FB9FA80017A95F /* Build configuration list for PBXProject "Sicredi" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8809489B25FB9FA80017A95F;
+			packageReferences = (
+				880948D925FBA8600017A95F /* XCRemoteSwiftPackageReference "Alamofire" */,
+				880948F425FBBFA20017A95F /* XCRemoteSwiftPackageReference "SwiftDate" */,
+			);
+			productRefGroup = 880948A525FB9FA80017A95F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				880948A325FB9FA80017A95F /* Sicredi */,
+				880948B425FB9FA90017A95F /* SicrediTests */,
+				880948BF25FB9FA90017A95F /* SicrediUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		880948A225FB9FA80017A95F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				880948AF25FB9FA90017A95F /* Preview Assets.xcassets in Resources */,
+				880948AC25FB9FA90017A95F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		880948B325FB9FA90017A95F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		880948BE25FB9FA90017A95F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		206724C62FC5B8B8FD3A2172 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Sicredi-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		30745C5717FEEB04D7867444 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sicredi/Pods-Sicredi-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sicredi/Pods-Sicredi-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Sicredi/Pods-Sicredi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		46DCF74ECB4EAA4174DA63B4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SicrediTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8996FA2CEFD5C31BEE256E90 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sicredi-SicrediUITests/Pods-Sicredi-SicrediUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sicredi-SicrediUITests/Pods-Sicredi-SicrediUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Sicredi-SicrediUITests/Pods-Sicredi-SicrediUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4CB894A45BBBBA785C8999A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Sicredi-SicrediUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B0EA3E12889FB58E205FA6CF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SicrediTests/Pods-SicrediTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SicrediTests/Pods-SicrediTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SicrediTests/Pods-SicrediTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		880948A025FB9FA80017A95F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				880948FD25FBD7C50017A95F /* EventService.swift in Sources */,
+				880948F325FBB3720017A95F /* EventsViewModel.swift in Sources */,
+				880948F125FBAF170017A95F /* People.swift in Sources */,
+				880948AA25FB9FA80017A95F /* EventsView.swift in Sources */,
+				880948EF25FBACD60017A95F /* Events.swift in Sources */,
+				880948A825FB9FA80017A95F /* SicrediApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		880948B125FB9FA90017A95F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				880948BA25FB9FA90017A95F /* SicrediTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		880948BC25FB9FA90017A95F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				880948C525FB9FA90017A95F /* SicrediUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		880948B725FB9FA90017A95F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 880948A325FB9FA80017A95F /* Sicredi */;
+			targetProxy = 880948B625FB9FA90017A95F /* PBXContainerItemProxy */;
+		};
+		880948C225FB9FA90017A95F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 880948A325FB9FA80017A95F /* Sicredi */;
+			targetProxy = 880948C125FB9FA90017A95F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		880948C725FB9FA90017A95F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		880948C825FB9FA90017A95F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		880948CA25FB9FA90017A95F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DA26B79C2879C783DE99270 /* Pods-Sicredi.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Sicredi/Preview Content\"";
+				DEVELOPMENT_TEAM = 5TQQ84X3M3;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Sicredi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.renatoferrazdf.Sicredi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		880948CB25FB9FA90017A95F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CFEF5B13FCA4DECFF770D66 /* Pods-Sicredi.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Sicredi/Preview Content\"";
+				DEVELOPMENT_TEAM = 5TQQ84X3M3;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Sicredi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.renatoferrazdf.Sicredi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		880948CD25FB9FA90017A95F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32C3800AF3CCE3C95F8420C8 /* Pods-SicrediTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5TQQ84X3M3;
+				INFOPLIST_FILE = SicrediTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.renatoferrazdf.SicrediTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sicredi.app/Sicredi";
+			};
+			name = Debug;
+		};
+		880948CE25FB9FA90017A95F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3742C984C58FE39849DC1980 /* Pods-SicrediTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5TQQ84X3M3;
+				INFOPLIST_FILE = SicrediTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.renatoferrazdf.SicrediTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sicredi.app/Sicredi";
+			};
+			name = Release;
+		};
+		880948D025FB9FA90017A95F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 953B243838313A1293895DB2 /* Pods-Sicredi-SicrediUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5TQQ84X3M3;
+				INFOPLIST_FILE = SicrediUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.renatoferrazdf.SicrediUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Sicredi;
+			};
+			name = Debug;
+		};
+		880948D125FB9FA90017A95F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E866B1919E4C132DFC411A60 /* Pods-Sicredi-SicrediUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5TQQ84X3M3;
+				INFOPLIST_FILE = SicrediUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.renatoferrazdf.SicrediUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Sicredi;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8809489F25FB9FA80017A95F /* Build configuration list for PBXProject "Sicredi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				880948C725FB9FA90017A95F /* Debug */,
+				880948C825FB9FA90017A95F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		880948C925FB9FA90017A95F /* Build configuration list for PBXNativeTarget "Sicredi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				880948CA25FB9FA90017A95F /* Debug */,
+				880948CB25FB9FA90017A95F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		880948CC25FB9FA90017A95F /* Build configuration list for PBXNativeTarget "SicrediTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				880948CD25FB9FA90017A95F /* Debug */,
+				880948CE25FB9FA90017A95F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		880948CF25FB9FA90017A95F /* Build configuration list for PBXNativeTarget "SicrediUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				880948D025FB9FA90017A95F /* Debug */,
+				880948D125FB9FA90017A95F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		880948D925FBA8600017A95F /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.4.1;
+			};
+		};
+		880948F425FBBFA20017A95F /* XCRemoteSwiftPackageReference "SwiftDate" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/malcommac/SwiftDate.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.3.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		880948DA25FBA8600017A95F /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 880948D925FBA8600017A95F /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		880948F525FBBFA20017A95F /* SwiftDate */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 880948F425FBBFA20017A95F /* XCRemoteSwiftPackageReference "SwiftDate" */;
+			productName = SwiftDate;
+		};
+		880948F725FBBFA20017A95F /* SwiftDateStatic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 880948F425FBBFA20017A95F /* XCRemoteSwiftPackageReference "SwiftDate" */;
+			productName = SwiftDateStatic;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 8809489C25FB9FA80017A95F /* Project object */;
+}

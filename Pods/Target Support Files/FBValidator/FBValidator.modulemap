@@ -1,0 +1,6 @@
+framework module FBValidator {
+  umbrella header "FBValidator-umbrella.h"
+
+  export *
+  module * { export * }
+}

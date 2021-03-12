@@ -1,0 +1,47 @@
+PODS:
+  - FBModel (0.0.10)
+  - FBNavigator (0.0.1)
+  - FBValidator (0.0.1)
+  - FBView (0.0.1)
+
+DEPENDENCIES:
+  - FBModel (from `https://github.com/Felip38rito/FBModel.git`, tag `0.0.10`)
+  - FBNavigator (from `https://github.com/Felip38rito/FBNavigator.git`, tag `0.0.3`)
+  - FBValidator (from `https://github.com/Felip38rito/FBValidator.git`)
+  - FBView (from `https://github.com/Felip38rito/FBView.git`)
+
+EXTERNAL SOURCES:
+  FBModel:
+    :git: https://github.com/Felip38rito/FBModel.git
+    :tag: 0.0.10
+  FBNavigator:
+    :git: https://github.com/Felip38rito/FBNavigator.git
+    :tag: 0.0.3
+  FBValidator:
+    :git: https://github.com/Felip38rito/FBValidator.git
+  FBView:
+    :git: https://github.com/Felip38rito/FBView.git
+
+CHECKOUT OPTIONS:
+  FBModel:
+    :git: https://github.com/Felip38rito/FBModel.git
+    :tag: 0.0.10
+  FBNavigator:
+    :git: https://github.com/Felip38rito/FBNavigator.git
+    :tag: 0.0.3
+  FBValidator:
+    :commit: c4e8039a6f722628b653902d60d4e9acdbe3d05a
+    :git: https://github.com/Felip38rito/FBValidator.git
+  FBView:
+    :commit: 02344545128b109870aad4d4e5d08cba58754756
+    :git: https://github.com/Felip38rito/FBView.git
+
+SPEC CHECKSUMS:
+  FBModel: c699c2c7fb7347fc0b3be6b42bc353f53eda3c2a
+  FBNavigator: 7fe2a6919135fb7a0251136bad0e0fe3071125c9
+  FBValidator: 1ecb7ee16f675639af610b333aecfbcc058e522a
+  FBView: cc060179c380a6e85127678984c355c6e9dadab6
+
+PODFILE CHECKSUM: 08c36e0296e2599bdb8e774a14ceb29a8eef45f7
+
+COCOAPODS: 1.10.1
