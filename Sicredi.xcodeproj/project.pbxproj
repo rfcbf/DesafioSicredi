@@ -16,13 +16,26 @@
 		880948AF25FB9FA90017A95F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 880948AE25FB9FA90017A95F /* Preview Assets.xcassets */; };
 		880948BA25FB9FA90017A95F /* SicrediTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880948B925FB9FA90017A95F /* SicrediTests.swift */; };
 		880948C525FB9FA90017A95F /* SicrediUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880948C425FB9FA90017A95F /* SicrediUITests.swift */; };
-		880948DB25FBA8600017A95F /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 880948DA25FBA8600017A95F /* Alamofire */; };
 		880948EF25FBACD60017A95F /* Events.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880948EE25FBACD60017A95F /* Events.swift */; };
 		880948F125FBAF170017A95F /* People.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880948F025FBAF170017A95F /* People.swift */; };
 		880948F325FBB3720017A95F /* EventsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880948F225FBB3720017A95F /* EventsViewModel.swift */; };
-		880948F625FBBFA20017A95F /* SwiftDate in Frameworks */ = {isa = PBXBuildFile; productRef = 880948F525FBBFA20017A95F /* SwiftDate */; };
-		880948F825FBBFA20017A95F /* SwiftDateStatic in Frameworks */ = {isa = PBXBuildFile; productRef = 880948F725FBBFA20017A95F /* SwiftDateStatic */; };
 		880948FD25FBD7C50017A95F /* EventService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880948FC25FBD7C50017A95F /* EventService.swift */; };
+		8809490025FBFBB20017A95F /* SwiftUIX in Frameworks */ = {isa = PBXBuildFile; productRef = 880948FF25FBFBB20017A95F /* SwiftUIX */; };
+		884B85A125FFA10200264ED4 /* Defaults+Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884B85A025FFA10200264ED4 /* Defaults+Extras.swift */; };
+		884B85A725FFA20F00264ED4 /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884B85A625FFA20F00264ED4 /* UserView.swift */; };
+		884B85AC25FFA25B00264ED4 /* Background.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884B85AB25FFA25B00264ED4 /* Background.swift */; };
+		884B85B225FFA59A00264ED4 /* FloatingLabelTextFieldSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 884B85B125FFA59A00264ED4 /* FloatingLabelTextFieldSwiftUI */; };
+		884B85B625FFABA400264ED4 /* Fields.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884B85B525FFABA400264ED4 /* Fields.swift */; };
+		884B85CA25FFD98200264ED4 /* AlertToast in Frameworks */ = {isa = PBXBuildFile; productRef = 884B85C925FFD98200264ED4 /* AlertToast */; };
+		884B85D025FFDE7300264ED4 /* PartialSheet in Frameworks */ = {isa = PBXBuildFile; productRef = 884B85CF25FFDE7300264ED4 /* PartialSheet */; };
+		884B85D625FFE13F00264ED4 /* UIScreen+extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884B85D525FFE13F00264ED4 /* UIScreen+extras.swift */; };
+		884B85DE2600136C00264ED4 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884B85DD2600136C00264ED4 /* CardView.swift */; };
+		884B85E42600139500264ED4 /* SheetUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884B85E32600139500264ED4 /* SheetUserView.swift */; };
+		884B85E92600234000264ED4 /* SwiftDate in Frameworks */ = {isa = PBXBuildFile; productRef = 884B85E82600234000264ED4 /* SwiftDate */; };
+		884B85EB2600234000264ED4 /* SwiftDateStatic in Frameworks */ = {isa = PBXBuildFile; productRef = 884B85EA2600234000264ED4 /* SwiftDateStatic */; };
+		88634AD125FD0150007A04EF /* Defaults in Frameworks */ = {isa = PBXBuildFile; productRef = 88634AD025FD0150007A04EF /* Defaults */; };
+		88634AD425FD01C6007A04EF /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 88634AD325FD01C6007A04EF /* SDWebImageSwiftUI */; };
+		88634AD625FF8FC0007A04EF /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88634AD525FF8FC0007A04EF /* Utils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +90,14 @@
 		880948F025FBAF170017A95F /* People.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = People.swift; sourceTree = "<group>"; };
 		880948F225FBB3720017A95F /* EventsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsViewModel.swift; sourceTree = "<group>"; };
 		880948FC25FBD7C50017A95F /* EventService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventService.swift; sourceTree = "<group>"; };
+		884B85A025FFA10200264ED4 /* Defaults+Extras.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Defaults+Extras.swift"; sourceTree = "<group>"; };
+		884B85A625FFA20F00264ED4 /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
+		884B85AB25FFA25B00264ED4 /* Background.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Background.swift; sourceTree = "<group>"; };
+		884B85B525FFABA400264ED4 /* Fields.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fields.swift; sourceTree = "<group>"; };
+		884B85D525FFE13F00264ED4 /* UIScreen+extras.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIScreen+extras.swift"; sourceTree = "<group>"; };
+		884B85DD2600136C00264ED4 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		884B85E32600139500264ED4 /* SheetUserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetUserView.swift; sourceTree = "<group>"; };
+		88634AD525FF8FC0007A04EF /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		953B243838313A1293895DB2 /* Pods-Sicredi-SicrediUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sicredi-SicrediUITests.debug.xcconfig"; path = "Target Support Files/Pods-Sicredi-SicrediUITests/Pods-Sicredi-SicrediUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		BDDE9BCC9C77AB6669C1A1C9 /* Pods_Sicredi_SicrediUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sicredi_SicrediUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E462288400D6F3614C2AE8A9 /* Pods_Sicredi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sicredi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -88,10 +109,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88634AD425FD01C6007A04EF /* SDWebImageSwiftUI in Frameworks */,
+				88634AD125FD0150007A04EF /* Defaults in Frameworks */,
+				884B85EB2600234000264ED4 /* SwiftDateStatic in Frameworks */,
 				60E03AFB6B815A5449BB87DF /* Pods_Sicredi.framework in Frameworks */,
-				880948DB25FBA8600017A95F /* Alamofire in Frameworks */,
-				880948F825FBBFA20017A95F /* SwiftDateStatic in Frameworks */,
-				880948F625FBBFA20017A95F /* SwiftDate in Frameworks */,
+				884B85CA25FFD98200264ED4 /* AlertToast in Frameworks */,
+				884B85E92600234000264ED4 /* SwiftDate in Frameworks */,
+				884B85D025FFDE7300264ED4 /* PartialSheet in Frameworks */,
+				884B85B225FFA59A00264ED4 /* FloatingLabelTextFieldSwiftUI in Frameworks */,
+				8809490025FBFBB20017A95F /* SwiftUIX in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,7 +246,8 @@
 		880948D425FBA4300017A95F /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				880948A925FB9FA80017A95F /* EventsView.swift */,
+				884B85DC2600135600264ED4 /* User */,
+				884B85DB2600134B00264ED4 /* Events */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -245,6 +272,9 @@
 		880948D725FBA4640017A95F /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				884B85AA25FFA24800264ED4 /* Componentes */,
+				884B859F25FFA0E200264ED4 /* Extension */,
+				88634AD525FF8FC0007A04EF /* Utils.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -255,6 +285,42 @@
 				880948AB25FB9FA90017A95F /* Assets.xcassets */,
 			);
 			path = Assets;
+			sourceTree = "<group>";
+		};
+		884B859F25FFA0E200264ED4 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				884B85D525FFE13F00264ED4 /* UIScreen+extras.swift */,
+				884B85A025FFA10200264ED4 /* Defaults+Extras.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		884B85AA25FFA24800264ED4 /* Componentes */ = {
+			isa = PBXGroup;
+			children = (
+				884B85B525FFABA400264ED4 /* Fields.swift */,
+				884B85AB25FFA25B00264ED4 /* Background.swift */,
+			);
+			path = Componentes;
+			sourceTree = "<group>";
+		};
+		884B85DB2600134B00264ED4 /* Events */ = {
+			isa = PBXGroup;
+			children = (
+				880948A925FB9FA80017A95F /* EventsView.swift */,
+				884B85DD2600136C00264ED4 /* CardView.swift */,
+			);
+			path = Events;
+			sourceTree = "<group>";
+		};
+		884B85DC2600135600264ED4 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				884B85A625FFA20F00264ED4 /* UserView.swift */,
+				884B85E32600139500264ED4 /* SheetUserView.swift */,
+			);
+			path = User;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -277,9 +343,14 @@
 			);
 			name = Sicredi;
 			packageProductDependencies = (
-				880948DA25FBA8600017A95F /* Alamofire */,
-				880948F525FBBFA20017A95F /* SwiftDate */,
-				880948F725FBBFA20017A95F /* SwiftDateStatic */,
+				880948FF25FBFBB20017A95F /* SwiftUIX */,
+				88634AD025FD0150007A04EF /* Defaults */,
+				88634AD325FD01C6007A04EF /* SDWebImageSwiftUI */,
+				884B85B125FFA59A00264ED4 /* FloatingLabelTextFieldSwiftUI */,
+				884B85C925FFD98200264ED4 /* AlertToast */,
+				884B85CF25FFDE7300264ED4 /* PartialSheet */,
+				884B85E82600234000264ED4 /* SwiftDate */,
+				884B85EA2600234000264ED4 /* SwiftDateStatic */,
 			);
 			productName = Sicredi;
 			productReference = 880948A425FB9FA80017A95F /* Sicredi.app */;
@@ -357,8 +428,13 @@
 			);
 			mainGroup = 8809489B25FB9FA80017A95F;
 			packageReferences = (
-				880948D925FBA8600017A95F /* XCRemoteSwiftPackageReference "Alamofire" */,
-				880948F425FBBFA20017A95F /* XCRemoteSwiftPackageReference "SwiftDate" */,
+				880948FE25FBFBB20017A95F /* XCRemoteSwiftPackageReference "SwiftUIX" */,
+				88634ACF25FD0150007A04EF /* XCRemoteSwiftPackageReference "Defaults" */,
+				88634AD225FD01C6007A04EF /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+				884B85B025FFA59900264ED4 /* XCRemoteSwiftPackageReference "FloatingLabelTextFieldSwiftUI" */,
+				884B85C825FFD98200264ED4 /* XCRemoteSwiftPackageReference "AlertToast" */,
+				884B85CE25FFDE7300264ED4 /* XCRemoteSwiftPackageReference "PartialSheet" */,
+				884B85E72600234000264ED4 /* XCRemoteSwiftPackageReference "SwiftDate" */,
 			);
 			productRefGroup = 880948A525FB9FA80017A95F /* Products */;
 			projectDirPath = "";
@@ -522,12 +598,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				884B85B625FFABA400264ED4 /* Fields.swift in Sources */,
 				880948FD25FBD7C50017A95F /* EventService.swift in Sources */,
 				880948F325FBB3720017A95F /* EventsViewModel.swift in Sources */,
+				884B85A125FFA10200264ED4 /* Defaults+Extras.swift in Sources */,
 				880948F125FBAF170017A95F /* People.swift in Sources */,
+				88634AD625FF8FC0007A04EF /* Utils.swift in Sources */,
 				880948AA25FB9FA80017A95F /* EventsView.swift in Sources */,
+				884B85DE2600136C00264ED4 /* CardView.swift in Sources */,
 				880948EF25FBACD60017A95F /* Events.swift in Sources */,
+				884B85D625FFE13F00264ED4 /* UIScreen+extras.swift in Sources */,
+				884B85A725FFA20F00264ED4 /* UserView.swift in Sources */,
 				880948A825FB9FA80017A95F /* SicrediApp.swift in Sources */,
+				884B85AC25FFA25B00264ED4 /* Background.swift in Sources */,
+				884B85E42600139500264ED4 /* SheetUserView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -781,6 +865,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5TQQ84X3M3;
 				INFOPLIST_FILE = SicrediUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -802,6 +887,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5TQQ84X3M3;
 				INFOPLIST_FILE = SicrediUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -857,15 +943,39 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		880948D925FBA8600017A95F /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+		880948FE25FBFBB20017A95F /* XCRemoteSwiftPackageReference "SwiftUIX" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			repositoryURL = "https://github.com/SwiftUIX/SwiftUIX";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 5.4.1;
+				minimumVersion = 0.0.5;
 			};
 		};
-		880948F425FBBFA20017A95F /* XCRemoteSwiftPackageReference "SwiftDate" */ = {
+		884B85B025FFA59900264ED4 /* XCRemoteSwiftPackageReference "FloatingLabelTextFieldSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kishanraja/FloatingLabelTextFieldSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.1.0;
+			};
+		};
+		884B85C825FFD98200264ED4 /* XCRemoteSwiftPackageReference "AlertToast" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/elai950/AlertToast.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.0;
+			};
+		};
+		884B85CE25FFDE7300264ED4 /* XCRemoteSwiftPackageReference "PartialSheet" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AndreaMiotto/PartialSheet.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.1.11;
+			};
+		};
+		884B85E72600234000264ED4 /* XCRemoteSwiftPackageReference "SwiftDate" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/malcommac/SwiftDate.git";
 			requirement = {
@@ -873,23 +983,64 @@
 				minimumVersion = 6.3.1;
 			};
 		};
+		88634ACF25FD0150007A04EF /* XCRemoteSwiftPackageReference "Defaults" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sindresorhus/Defaults";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.2.1;
+			};
+		};
+		88634AD225FD01C6007A04EF /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.2;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		880948DA25FBA8600017A95F /* Alamofire */ = {
+		880948FF25FBFBB20017A95F /* SwiftUIX */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 880948D925FBA8600017A95F /* XCRemoteSwiftPackageReference "Alamofire" */;
-			productName = Alamofire;
+			package = 880948FE25FBFBB20017A95F /* XCRemoteSwiftPackageReference "SwiftUIX" */;
+			productName = SwiftUIX;
 		};
-		880948F525FBBFA20017A95F /* SwiftDate */ = {
+		884B85B125FFA59A00264ED4 /* FloatingLabelTextFieldSwiftUI */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 880948F425FBBFA20017A95F /* XCRemoteSwiftPackageReference "SwiftDate" */;
+			package = 884B85B025FFA59900264ED4 /* XCRemoteSwiftPackageReference "FloatingLabelTextFieldSwiftUI" */;
+			productName = FloatingLabelTextFieldSwiftUI;
+		};
+		884B85C925FFD98200264ED4 /* AlertToast */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 884B85C825FFD98200264ED4 /* XCRemoteSwiftPackageReference "AlertToast" */;
+			productName = AlertToast;
+		};
+		884B85CF25FFDE7300264ED4 /* PartialSheet */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 884B85CE25FFDE7300264ED4 /* XCRemoteSwiftPackageReference "PartialSheet" */;
+			productName = PartialSheet;
+		};
+		884B85E82600234000264ED4 /* SwiftDate */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 884B85E72600234000264ED4 /* XCRemoteSwiftPackageReference "SwiftDate" */;
 			productName = SwiftDate;
 		};
-		880948F725FBBFA20017A95F /* SwiftDateStatic */ = {
+		884B85EA2600234000264ED4 /* SwiftDateStatic */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 880948F425FBBFA20017A95F /* XCRemoteSwiftPackageReference "SwiftDate" */;
+			package = 884B85E72600234000264ED4 /* XCRemoteSwiftPackageReference "SwiftDate" */;
 			productName = SwiftDateStatic;
+		};
+		88634AD025FD0150007A04EF /* Defaults */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 88634ACF25FD0150007A04EF /* XCRemoteSwiftPackageReference "Defaults" */;
+			productName = Defaults;
+		};
+		88634AD325FD01C6007A04EF /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 88634AD225FD01C6007A04EF /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

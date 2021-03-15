@@ -25,9 +25,7 @@ public class EventsViewModel: ObservableObject {
                 self.events = events
             }
         })
-        
-        
+
     }
-    
     
 }
