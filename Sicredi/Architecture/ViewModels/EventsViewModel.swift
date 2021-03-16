@@ -22,12 +22,25 @@ public class EventsViewModel: ObservableObject {
     public func getAll(){
         
         eventService.getAllEvents(completion: { events in
-            
             DispatchQueue.main.async {
                 self.events = events
             }
         })
 
+    }
+    
+    public func sendCheckin(id: String, name: String, email: String, completion: @escaping (Bool) -> ()) {
+        
+        eventService.postCheckin(id: id, name: name, email: email) { result in
+
+            if result {
+                completion(true)
+            }else{
+                completion(false)
+            }
+
+        }
+        
     }
     
 }

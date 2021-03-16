@@ -39,7 +39,7 @@ struct EventsView: View {
             }
             
             if showDetail {
-                DetailEventView(animation: animation, event: selected!, show: $showDetail)
+                DetailEventView(eventsVM: eventsVM, animation: animation, event: selected!, show: $showDetail)
             }
             
         }
