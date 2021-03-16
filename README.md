@@ -10,9 +10,9 @@ Tel: (61) 99368-4628
 
 |  |  |
 |--|--|
-| <img src="https://github.com/rfcbf/DesafioSicredi/blob/main/Imagens/1.png" width="480" height="720" /> | <img src="https://github.com/rfcbf/DesafioSicredi/blob/main/Imagens/2.png" width="480" height="720" />
-| <img src="https://github.com/rfcbf/DesafioSicredi/blob/main/Imagens/3.png" width="480" height="720" /> | <img src="https://github.com/rfcbf/DesafioSicredi/blob/main/Imagens/4.png" width="480" height="720" />
-| <img src="https://github.com/rfcbf/DesafioSicredi/blob/main/Imagens/5.png" width="480" height="720" /> | 
+| <img src="https://github.com/rfcbf/DesafioSicredi/blob/main/Imagens/1.jpg" width="333" height="720" /> | <img src="https://github.com/rfcbf/DesafioSicredi/blob/main/Imagens/2.jpg" width="333" height="720" />
+| <img src="https://github.com/rfcbf/DesafioSicredi/blob/main/Imagens/3.jpg" width="333" height="720" /> | <img src="https://github.com/rfcbf/DesafioSicredi/blob/main/Imagens/4.jpg" width="333" height="720" />
+| <img src="https://github.com/rfcbf/DesafioSicredi/blob/main/Imagens/5.jpg" width="333" height="720" /> | 
 
 ## Instalação e Pré-requistos
 
