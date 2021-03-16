@@ -14,6 +14,9 @@ import AlertToast
 struct EventsView: View {
     
     @ObservedObject var eventsVM : EventsViewModel
+    @Namespace var animation
+    @State var showDetail = false
+    @State var selected: Events?
     
     let sheetManager: PartialSheetManager = PartialSheetManager()
     let sheetStyle = PartialSheetStyle(background: .blur(.light),
@@ -33,6 +36,10 @@ struct EventsView: View {
             VStack{
                 barTitle.padding()
                 content
+            }
+            
+            if showDetail {
+                DetailEventView(animation: animation, event: selected!, show: $showDetail)
             }
             
         }
@@ -76,14 +83,25 @@ struct EventsView: View {
     }
     
     var content: some View {
+        
+        
         ScrollView(.vertical, showsIndicators: false, content: {
             ForEach(eventsVM.events) { event in
-                CardView(id: event.id, image: event.image, title: event.title, price: event.price, data: event.date)
+                CardView(event: event)
                     .background(Color(.white))
                     .mask(RoundedRectangle(cornerRadius: 30, style: .continuous))
                     .overlay(RoundedRectangle(cornerRadius: 30, style: .continuous).stroke(Color.black, lineWidth: 0.5))
                     .shadow(color: Color.black.opacity(0.2), radius: 5, x: 5, y: 10)
                     .padding(.all, 10)
+                    .onTapGesture {
+                        withAnimation(.spring()){
+                            
+                            selected = event
+                            showDetail.toggle()
+                            
+                        }
+                    }
+                    .matchedGeometryEffect(id: event.id, in: animation)
             }
         })
     }

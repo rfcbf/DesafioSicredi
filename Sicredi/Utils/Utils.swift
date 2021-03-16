@@ -13,6 +13,8 @@ public class Utils {
     func convertFloatToMoney(_ value : Double) -> String {
         let currencyFormatter = NumberFormatter()
         currencyFormatter.usesGroupingSeparator = true
+        currencyFormatter.alwaysShowsDecimalSeparator = true
+        currencyFormatter.decimalSeparator = ","
         currencyFormatter.numberStyle = .currency
         currencyFormatter.locale = Locale.current
         

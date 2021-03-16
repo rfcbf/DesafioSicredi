@@ -10,9 +10,9 @@ import SwiftUI
 struct Events: Codable, Identifiable {
     
     var id: String
-    var date: Date
+    var date: Date?
     var description: String
-    var image: URL
+    var image: URL?
     var latitude: Double
     var longitude: Double
     var people: [People]

@@ -10,6 +10,8 @@ import SwiftUI
 public class EventsViewModel: ObservableObject {
     
     @Published var events : [Events] = []
+    @Published var show = false
+    @Published var selected : String = ""
     
     public let eventService: EventService
     

@@ -33,6 +33,8 @@
 		884B85E42600139500264ED4 /* SheetUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884B85E32600139500264ED4 /* SheetUserView.swift */; };
 		884B85E92600234000264ED4 /* SwiftDate in Frameworks */ = {isa = PBXBuildFile; productRef = 884B85E82600234000264ED4 /* SwiftDate */; };
 		884B85EB2600234000264ED4 /* SwiftDateStatic in Frameworks */ = {isa = PBXBuildFile; productRef = 884B85EA2600234000264ED4 /* SwiftDateStatic */; };
+		884B85FE260040F600264ED4 /* DetailEventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884B85FD260040F600264ED4 /* DetailEventView.swift */; };
+		884B86022600E22A00264ED4 /* MKCoordinateRegion+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884B86012600E22A00264ED4 /* MKCoordinateRegion+Extensions.swift */; };
 		88634AD125FD0150007A04EF /* Defaults in Frameworks */ = {isa = PBXBuildFile; productRef = 88634AD025FD0150007A04EF /* Defaults */; };
 		88634AD425FD01C6007A04EF /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 88634AD325FD01C6007A04EF /* SDWebImageSwiftUI */; };
 		88634AD625FF8FC0007A04EF /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88634AD525FF8FC0007A04EF /* Utils.swift */; };
@@ -97,6 +99,8 @@
 		884B85D525FFE13F00264ED4 /* UIScreen+extras.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIScreen+extras.swift"; sourceTree = "<group>"; };
 		884B85DD2600136C00264ED4 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		884B85E32600139500264ED4 /* SheetUserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetUserView.swift; sourceTree = "<group>"; };
+		884B85FD260040F600264ED4 /* DetailEventView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailEventView.swift; sourceTree = "<group>"; };
+		884B86012600E22A00264ED4 /* MKCoordinateRegion+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MKCoordinateRegion+Extensions.swift"; sourceTree = "<group>"; };
 		88634AD525FF8FC0007A04EF /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		953B243838313A1293895DB2 /* Pods-Sicredi-SicrediUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sicredi-SicrediUITests.debug.xcconfig"; path = "Target Support Files/Pods-Sicredi-SicrediUITests/Pods-Sicredi-SicrediUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		BDDE9BCC9C77AB6669C1A1C9 /* Pods_Sicredi_SicrediUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sicredi_SicrediUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -292,6 +296,7 @@
 			children = (
 				884B85D525FFE13F00264ED4 /* UIScreen+extras.swift */,
 				884B85A025FFA10200264ED4 /* Defaults+Extras.swift */,
+				884B86012600E22A00264ED4 /* MKCoordinateRegion+Extensions.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -310,6 +315,7 @@
 			children = (
 				880948A925FB9FA80017A95F /* EventsView.swift */,
 				884B85DD2600136C00264ED4 /* CardView.swift */,
+				884B85FD260040F600264ED4 /* DetailEventView.swift */,
 			);
 			path = Events;
 			sourceTree = "<group>";
@@ -601,7 +607,9 @@
 				884B85B625FFABA400264ED4 /* Fields.swift in Sources */,
 				880948FD25FBD7C50017A95F /* EventService.swift in Sources */,
 				880948F325FBB3720017A95F /* EventsViewModel.swift in Sources */,
+				884B85FE260040F600264ED4 /* DetailEventView.swift in Sources */,
 				884B85A125FFA10200264ED4 /* Defaults+Extras.swift in Sources */,
+				884B86022600E22A00264ED4 /* MKCoordinateRegion+Extensions.swift in Sources */,
 				880948F125FBAF170017A95F /* People.swift in Sources */,
 				88634AD625FF8FC0007A04EF /* Utils.swift in Sources */,
 				880948AA25FB9FA80017A95F /* EventsView.swift in Sources */,
