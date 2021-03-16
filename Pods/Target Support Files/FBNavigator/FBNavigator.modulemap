@@ -1,6 +1,0 @@
-framework module FBNavigator {
-  umbrella header "FBNavigator-umbrella.h"
-
-  export *
-  module * { export * }
-}

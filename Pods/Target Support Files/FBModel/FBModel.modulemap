@@ -1,6 +1,0 @@
-framework module FBModel {
-  umbrella header "FBModel-umbrella.h"
-
-  export *
-  module * { export * }
-}

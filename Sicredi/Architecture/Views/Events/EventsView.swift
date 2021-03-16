@@ -63,7 +63,6 @@ struct EventsView: View {
                 
                 Button(action: {
                     self.sheetManager.showPartialSheet({
-                        print("Fechou perfil")
                     }) {
                         SheetUserView()
                     }
