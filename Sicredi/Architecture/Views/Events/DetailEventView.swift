@@ -128,10 +128,10 @@ struct DetailEventView: View {
                     .matchedGeometryEffect(id: event.id, in: animation)
                     .ignoresSafeArea(.all, edges: .bottom)
             )
-            
+            .padding(.all, 20)
+
             VStack{
                 Spacer()
-                
                 HStack(alignment: .center, spacing: 30, content: {
 
                     Button(action: { isShowShared.toggle() }, label: {
@@ -148,6 +148,7 @@ struct DetailEventView: View {
                             .shadow(radius: 3)
                     })
                     .padding(.leading, 20)
+                    
                     .actionSheet(isPresented: $isShowShared){
                         
                         return ActionSheet(title: Text("Compartilhamento"), message: Text("O que deseja compartilhar?"), buttons: [
@@ -219,10 +220,9 @@ struct DetailEventView: View {
                     })
                     .padding(.trailing, 20)
 
-                    
                 })
-                
             }
+
         }
         .onAppear(perform: {
 

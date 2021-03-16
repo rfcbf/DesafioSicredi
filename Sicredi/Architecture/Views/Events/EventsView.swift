@@ -50,6 +50,7 @@ struct EventsView: View {
             eventsVM.getAll()
         }
         
+        
     }
     
     var barTitle: some View {
@@ -82,7 +83,6 @@ struct EventsView: View {
     }
     
     var content: some View {
-        
         
         ScrollView(.vertical, showsIndicators: false, content: {
             ForEach(eventsVM.events) { event in

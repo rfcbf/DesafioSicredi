@@ -19,7 +19,6 @@ struct Splash: View {
             ZStack{
                 Color("back")
                 
-                
                 Image("logo")
                     .resizable()
                     .renderingMode(.original)
@@ -49,8 +48,6 @@ struct Splash: View {
             
         }
     }
-    
-    
 }
 
 struct Home: View {
@@ -63,10 +60,8 @@ struct Home: View {
             let email : String = UserDefaults.standard[.email]
             
             if nome == "" && email == "" {
-                
                 //tela de login
                 UserView()
-                
             }else{
                 let eventsService = EventService()
                 let vm = EventsViewModel(eventService: eventsService)

@@ -40,9 +40,6 @@ struct CardView: View {
                         .fontWeight(.black)
                         .foregroundColor(.primary)
                         .lineLimit(3)
-//                    Text( Utils().convertFloatToMoney(event.price) )
-//                        .font(.caption)
-//                        .foregroundColor(.secondary)
                 }
                 .layoutPriority(100)
                 

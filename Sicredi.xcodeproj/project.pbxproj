@@ -20,6 +20,7 @@
 		8809490025FBFBB20017A95F /* SwiftUIX in Frameworks */ = {isa = PBXBuildFile; productRef = 880948FF25FBFBB20017A95F /* SwiftUIX */; };
 		8810CF9226013D96007D9419 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8810CF9126013D96007D9419 /* LaunchScreen.storyboard */; };
 		8810CF9926014000007D9419 /* Splash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8810CF9826014000007D9419 /* Splash.swift */; };
+		8810CF9F26015AE8007D9419 /* NetworkMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8810CF9E26015AE8007D9419 /* NetworkMonitor.swift */; };
 		884B85A125FFA10200264ED4 /* Defaults+Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884B85A025FFA10200264ED4 /* Defaults+Extras.swift */; };
 		884B85A725FFA20F00264ED4 /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884B85A625FFA20F00264ED4 /* UserView.swift */; };
 		884B85AC25FFA25B00264ED4 /* Background.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884B85AB25FFA25B00264ED4 /* Background.swift */; };
@@ -88,6 +89,7 @@
 		880948FC25FBD7C50017A95F /* EventService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventService.swift; sourceTree = "<group>"; };
 		8810CF9126013D96007D9419 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8810CF9826014000007D9419 /* Splash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Splash.swift; sourceTree = "<group>"; };
+		8810CF9E26015AE8007D9419 /* NetworkMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkMonitor.swift; sourceTree = "<group>"; };
 		884B85A025FFA10200264ED4 /* Defaults+Extras.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Defaults+Extras.swift"; sourceTree = "<group>"; };
 		884B85A625FFA20F00264ED4 /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
 		884B85AB25FFA25B00264ED4 /* Background.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Background.swift; sourceTree = "<group>"; };
@@ -207,6 +209,7 @@
 			isa = PBXGroup;
 			children = (
 				880948FC25FBD7C50017A95F /* EventService.swift */,
+				8810CF9E26015AE8007D9419 /* NetworkMonitor.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -460,6 +463,7 @@
 				884B85A125FFA10200264ED4 /* Defaults+Extras.swift in Sources */,
 				884B86022600E22A00264ED4 /* MKCoordinateRegion+Extensions.swift in Sources */,
 				880948F125FBAF170017A95F /* People.swift in Sources */,
+				8810CF9F26015AE8007D9419 /* NetworkMonitor.swift in Sources */,
 				88634AD625FF8FC0007A04EF /* Utils.swift in Sources */,
 				880948AA25FB9FA80017A95F /* EventsView.swift in Sources */,
 				884B85DE2600136C00264ED4 /* CardView.swift in Sources */,
