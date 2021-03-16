@@ -6,8 +6,8 @@
 //
 
 import SwiftUI
-import SwiftUIX
 import AlertToast
+import SwiftUIX
 
 struct UserView: View {
     

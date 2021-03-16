@@ -6,7 +6,6 @@
 //
 
 import SwiftUI
-import SwiftUIX
 import SDWebImageSwiftUI
 import PartialSheet
 import AlertToast
