@@ -108,7 +108,7 @@ struct DetailEventView: View {
                                 }
                                 .padding(.trailing)
                             }
-                            .background(.white)
+                            .background(Color(.white))
                             .cornerRadius(25)
                             .clipShape(Rectangle())
                             .shadow(radius: 3)
@@ -122,13 +122,12 @@ struct DetailEventView: View {
                 }
             }
             .frame(maxWidth: .infinity, maxHeight: .infinity)
-            .background(
-                Background()
-                    .cornerRadius(25)
-                    .matchedGeometryEffect(id: event.id, in: animation)
-                    .ignoresSafeArea(.all, edges: .bottom)
-            )
-            .padding(.all, 20)
+//            .background(
+//                Background()
+//                    .cornerRadius(25)
+//                    .matchedGeometryEffect(id: event.id, in: animation)
+//                    .ignoresSafeArea(.all, edges: .bottom)
+//            )
 
             VStack{
                 Spacer()

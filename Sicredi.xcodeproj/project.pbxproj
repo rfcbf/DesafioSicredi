@@ -32,7 +32,6 @@
 		884B85E42600139500264ED4 /* SheetUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884B85E32600139500264ED4 /* SheetUserView.swift */; };
 		884B85FE260040F600264ED4 /* DetailEventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884B85FD260040F600264ED4 /* DetailEventView.swift */; };
 		884B86022600E22A00264ED4 /* MKCoordinateRegion+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884B86012600E22A00264ED4 /* MKCoordinateRegion+Extensions.swift */; };
-		886009D626016F8200BF38B0 /* SwiftUIX in Frameworks */ = {isa = PBXBuildFile; productRef = 886009D526016F8200BF38B0 /* SwiftUIX */; };
 		88634AD125FD0150007A04EF /* Defaults in Frameworks */ = {isa = PBXBuildFile; productRef = 88634AD025FD0150007A04EF /* Defaults */; };
 		88634AD425FD01C6007A04EF /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 88634AD325FD01C6007A04EF /* SDWebImageSwiftUI */; };
 		88634AD625FF8FC0007A04EF /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88634AD525FF8FC0007A04EF /* Utils.swift */; };
@@ -108,7 +107,6 @@
 				88634AD425FD01C6007A04EF /* SDWebImageSwiftUI in Frameworks */,
 				88634AD125FD0150007A04EF /* Defaults in Frameworks */,
 				884B85CA25FFD98200264ED4 /* AlertToast in Frameworks */,
-				886009D626016F8200BF38B0 /* SwiftUIX in Frameworks */,
 				884B85D025FFDE7300264ED4 /* PartialSheet in Frameworks */,
 				884B85B225FFA59A00264ED4 /* FloatingLabelTextFieldSwiftUI in Frameworks */,
 			);
@@ -325,7 +323,6 @@
 				884B85B125FFA59A00264ED4 /* FloatingLabelTextFieldSwiftUI */,
 				884B85C925FFD98200264ED4 /* AlertToast */,
 				884B85CF25FFDE7300264ED4 /* PartialSheet */,
-				886009D526016F8200BF38B0 /* SwiftUIX */,
 			);
 			productName = Sicredi;
 			productReference = 880948A425FB9FA80017A95F /* Sicredi.app */;
@@ -404,7 +401,6 @@
 				884B85B025FFA59900264ED4 /* XCRemoteSwiftPackageReference "FloatingLabelTextFieldSwiftUI" */,
 				884B85C825FFD98200264ED4 /* XCRemoteSwiftPackageReference "AlertToast" */,
 				884B85CE25FFDE7300264ED4 /* XCRemoteSwiftPackageReference "PartialSheet" */,
-				886009D426016F8200BF38B0 /* XCRemoteSwiftPackageReference "SwiftUIX" */,
 			);
 			productRefGroup = 880948A525FB9FA80017A95F /* Products */;
 			projectDirPath = "";
@@ -816,14 +812,6 @@
 				minimumVersion = 2.1.11;
 			};
 		};
-		886009D426016F8200BF38B0 /* XCRemoteSwiftPackageReference "SwiftUIX" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/SwiftUIX/SwiftUIX";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 0.0.5;
-			};
-		};
 		88634ACF25FD0150007A04EF /* XCRemoteSwiftPackageReference "Defaults" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/sindresorhus/Defaults";
@@ -857,11 +845,6 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 884B85CE25FFDE7300264ED4 /* XCRemoteSwiftPackageReference "PartialSheet" */;
 			productName = PartialSheet;
-		};
-		886009D526016F8200BF38B0 /* SwiftUIX */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 886009D426016F8200BF38B0 /* XCRemoteSwiftPackageReference "SwiftUIX" */;
-			productName = SwiftUIX;
 		};
 		88634AD025FD0150007A04EF /* Defaults */ = {
 			isa = XCSwiftPackageProductDependency;

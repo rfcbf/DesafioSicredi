@@ -7,7 +7,6 @@
 
 import SwiftUI
 import AlertToast
-import SwiftUIX
 
 struct UserView: View {
     
@@ -38,8 +37,6 @@ struct UserView: View {
                     
                     Spacer()
                     
-                    VisualEffectBlurView(blurStyle: .light){
-                        
                         VStack(alignment: .center, spacing: 20, content: {
                             Spacer()
                             Fields(field: self.$nome,
@@ -89,13 +86,7 @@ struct UserView: View {
                             
                         })
                         
-                        
-                    }
-                    .frame(maxWidth: .infinity, maxHeight: 300 , alignment: .center)
-                    .mask(RoundedRectangle(cornerRadius: 30, style: .continuous))
-                    .overlay(RoundedRectangle(cornerRadius: 30, style: .continuous).stroke(Color.white, lineWidth: 0.5))
-                    .shadow(color: Color.black.opacity(0.2), radius: 5, x: 5, y: 10)
-                    .padding()
+                    Spacer()
                     
                 }.padding()
             }
